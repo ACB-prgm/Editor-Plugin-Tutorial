@@ -1,0 +1,17 @@
+[gd_scene format=2]
+
+[node name="HBoxContainer" type="HBoxContainer"]
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Label" type="Label" parent="."]
+margin_top = 5.0
+margin_right = 122.0
+margin_bottom = 19.0
+text = "MyCustomProperty"
+
+[node name="CheckBox" type="CheckBox" parent="."]
+margin_left = 126.0
+margin_right = 150.0
+margin_bottom = 24.0

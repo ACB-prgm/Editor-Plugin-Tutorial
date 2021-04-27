@@ -1,0 +1,13 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://Testing/Testing.gd" type="Script" id=1]
+
+[node name="Testing" type="Label"]
+margin_right = 34.0
+margin_bottom = 14.0
+rect_pivot_offset = Vector2( 17, 7 )
+text = "Hello"
+script = ExtResource( 1 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
